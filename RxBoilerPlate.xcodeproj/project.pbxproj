@@ -6,20 +6,196 @@
 	objectVersion = 50;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		6EB46E0E214167F3001C65D5 /* RxBoilderPlaceMac.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EB46E0C214167F3001C65D5 /* RxBoilderPlaceMac.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6EB46E12214167FE001C65D5 /* URLSession+HTTPManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB41C6E213F189D005E9BF3 /* URLSession+HTTPManager.swift */; };
+		6EB46E1321416801001C65D5 /* Data+Decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB46E002141646F001C65D5 /* Data+Decodable.swift */; };
+		6EB46E1421416803001C65D5 /* HTTPServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB46E01214164E1001C65D5 /* HTTPServiceProtocol.swift */; };
+		6EB46E1521416806001C65D5 /* HTTPManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB41C6F213F189D005E9BF3 /* HTTPManager.swift */; };
+		6EB46E162141680B001C65D5 /* ViewModelType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB41C6B213F15CF005E9BF3 /* ViewModelType.swift */; };
+		6EB46E172141680B001C65D5 /* ViewType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB41C6C213F15DB005E9BF3 /* ViewType.swift */; };
+		6EB46E1B21416862001C65D5 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EB46E1921416862001C65D5 /* RxCocoa.framework */; };
+		6EB46E1C21416862001C65D5 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EB46E1A21416862001C65D5 /* RxSwift.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6EB41C6B213F15CF005E9BF3 /* ViewModelType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelType.swift; sourceTree = "<group>"; };
+		6EB41C6C213F15DB005E9BF3 /* ViewType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewType.swift; sourceTree = "<group>"; };
+		6EB41C6D213F1630005E9BF3 /* Cartfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
+		6EB41C6E213F189D005E9BF3 /* URLSession+HTTPManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URLSession+HTTPManager.swift"; sourceTree = "<group>"; };
+		6EB41C6F213F189D005E9BF3 /* HTTPManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPManager.swift; sourceTree = "<group>"; };
+		6EB46E002141646F001C65D5 /* Data+Decodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data+Decodable.swift"; sourceTree = "<group>"; };
+		6EB46E01214164E1001C65D5 /* HTTPServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPServiceProtocol.swift; sourceTree = "<group>"; };
+		6EB46E09214167F3001C65D5 /* RxBoilderPlaceMac.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxBoilderPlaceMac.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EB46E0C214167F3001C65D5 /* RxBoilderPlaceMac.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RxBoilderPlaceMac.h; sourceTree = "<group>"; };
+		6EB46E0D214167F3001C65D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6EB46E1921416862001C65D5 /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/Mac/RxCocoa.framework; sourceTree = "<group>"; };
+		6EB46E1A21416862001C65D5 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/Mac/RxSwift.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6EB46E05214167F3001C65D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EB46E1B21416862001C65D5 /* RxCocoa.framework in Frameworks */,
+				6EB46E1C21416862001C65D5 /* RxSwift.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
 /* Begin PBXGroup section */
 		6EB41C5E213EE4A3005E9BF3 = {
 			isa = PBXGroup;
 			children = (
+				6EB41C6D213F1630005E9BF3 /* Cartfile */,
+				6EB41C65213EE4AD005E9BF3 /* Source */,
+				6EB46E0B214167F3001C65D5 /* RxBoilerPlaceMac */,
+				6EB46E0A214167F3001C65D5 /* Products */,
+				6EB46E1821416861001C65D5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
+		6EB41C65213EE4AD005E9BF3 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				6EB46DFF21416437001C65D5 /* Extensions */,
+				6EB41C67213F1575005E9BF3 /* Protocols */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		6EB41C67213F1575005E9BF3 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				6EB41C6A213F15AB005E9BF3 /* Services */,
+				6EB41C69213F1596005E9BF3 /* Managers */,
+				6EB41C68213F1584005E9BF3 /* Architecture */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		6EB41C68213F1584005E9BF3 /* Architecture */ = {
+			isa = PBXGroup;
+			children = (
+				6EB41C6B213F15CF005E9BF3 /* ViewModelType.swift */,
+				6EB41C6C213F15DB005E9BF3 /* ViewType.swift */,
+			);
+			path = Architecture;
+			sourceTree = "<group>";
+		};
+		6EB41C69213F1596005E9BF3 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				6EB41C6F213F189D005E9BF3 /* HTTPManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		6EB41C6A213F15AB005E9BF3 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				6EB46E01214164E1001C65D5 /* HTTPServiceProtocol.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		6EB46DFF21416437001C65D5 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				6EB46E0321416511001C65D5 /* Managers */,
+				6EB46E0221416504001C65D5 /* Structures */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		6EB46E0221416504001C65D5 /* Structures */ = {
+			isa = PBXGroup;
+			children = (
+				6EB46E002141646F001C65D5 /* Data+Decodable.swift */,
+			);
+			path = Structures;
+			sourceTree = "<group>";
+		};
+		6EB46E0321416511001C65D5 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				6EB41C6E213F189D005E9BF3 /* URLSession+HTTPManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		6EB46E0A214167F3001C65D5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6EB46E09214167F3001C65D5 /* RxBoilderPlaceMac.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6EB46E0B214167F3001C65D5 /* RxBoilerPlaceMac */ = {
+			isa = PBXGroup;
+			children = (
+				6EB46E0C214167F3001C65D5 /* RxBoilderPlaceMac.h */,
+				6EB46E0D214167F3001C65D5 /* Info.plist */,
+			);
+			path = RxBoilerPlaceMac;
+			sourceTree = "<group>";
+		};
+		6EB46E1821416861001C65D5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6EB46E1921416862001C65D5 /* RxCocoa.framework */,
+				6EB46E1A21416862001C65D5 /* RxSwift.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		6EB46E06214167F3001C65D5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EB46E0E214167F3001C65D5 /* RxBoilderPlaceMac.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6EB46E08214167F3001C65D5 /* RxBoilderPlaceMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6EB46E0F214167F3001C65D5 /* Build configuration list for PBXNativeTarget "RxBoilderPlaceMac" */;
+			buildPhases = (
+				6EB46E04214167F3001C65D5 /* Sources */,
+				6EB46E05214167F3001C65D5 /* Frameworks */,
+				6EB46E06214167F3001C65D5 /* Headers */,
+				6EB46E07214167F3001C65D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RxBoilderPlaceMac;
+			productName = RxBoilderPlaceMac;
+			productReference = 6EB46E09214167F3001C65D5 /* RxBoilderPlaceMac.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		6EB41C5F213EE4A3005E9BF3 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0940;
+				TargetAttributes = {
+					6EB46E08214167F3001C65D5 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
 			};
 			buildConfigurationList = 6EB41C62213EE4A3005E9BF3 /* Build configuration list for PBXProject "RxBoilerPlate" */;
 			compatibilityVersion = "Xcode 9.3";
@@ -29,12 +205,40 @@
 				en,
 			);
 			mainGroup = 6EB41C5E213EE4A3005E9BF3;
+			productRefGroup = 6EB46E0A214167F3001C65D5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				6EB46E08214167F3001C65D5 /* RxBoilderPlaceMac */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6EB46E07214167F3001C65D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6EB46E04214167F3001C65D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EB46E172141680B001C65D5 /* ViewType.swift in Sources */,
+				6EB46E12214167FE001C65D5 /* URLSession+HTTPManager.swift in Sources */,
+				6EB46E1421416803001C65D5 /* HTTPServiceProtocol.swift in Sources */,
+				6EB46E1321416801001C65D5 /* Data+Decodable.swift in Sources */,
+				6EB46E162141680B001C65D5 /* ViewModelType.swift in Sources */,
+				6EB46E1521416806001C65D5 /* HTTPManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
 		6EB41C63213EE4A3005E9BF3 /* Debug */ = {
@@ -49,6 +253,171 @@
 			};
 			name = Release;
 		};
+		6EB46E10214167F3001C65D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
+				FRAMEWORK_VERSION = A;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = RxBoilderPlaceMac/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = dkp.RxBoilerPlaceMac;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6EB46E11214167F3001C65D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
+				FRAMEWORK_VERSION = A;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = RxBoilderPlaceMac/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = dkp.RxBoilerPlaceMac;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -57,6 +426,15 @@
 			buildConfigurations = (
 				6EB41C63213EE4A3005E9BF3 /* Debug */,
 				6EB41C64213EE4A3005E9BF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6EB46E0F214167F3001C65D5 /* Build configuration list for PBXNativeTarget "RxBoilderPlaceMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EB46E10214167F3001C65D5 /* Debug */,
+				6EB46E11214167F3001C65D5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
