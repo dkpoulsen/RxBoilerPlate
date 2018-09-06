@@ -67,6 +67,7 @@
 		6EB46E5721416B47001C65D5 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/watchOS/RxSwift.framework; sourceTree = "<group>"; };
 		6EB46E5B21416B7E001C65D5 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/tvOS/RxSwift.framework; sourceTree = "<group>"; };
 		6EB46E5C21416B7E001C65D5 /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/tvOS/RxCocoa.framework; sourceTree = "<group>"; };
+		6EB46E5F21417122001C65D5 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +113,7 @@
 		6EB41C5E213EE4A3005E9BF3 = {
 			isa = PBXGroup;
 			children = (
+				6EB46E5F21417122001C65D5 /* README.md */,
 				6EB41C6D213F1630005E9BF3 /* Cartfile */,
 				6EB41C65213EE4AD005E9BF3 /* Source */,
 				6EB46E0B214167F3001C65D5 /* RxBoilerPlace Mac */,
